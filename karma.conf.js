@@ -8,10 +8,10 @@ module.exports = function (config) {
     basePath: "./",
 
     files: [
-      "app/bower_components/angular/angular.js",
-      "app/bower_components/angular-route/angular-route.js",
-      "app/bower_components/angular-mocks/angular-mocks.js",
-      "app/bower_components/underscore/underscore.js",
+      "node_modules/angular/angular.js",
+      "node_modules/angular-route/angular-route.js",
+      "node_modules/angular-mocks/angular-mocks.js",
+      "node_modules/underscore/underscore.js",
       "app/cards/**/*.js",
       "app/klondike/piles/pile.js",
       "app/klondike/piles/foundationPile.js",
@@ -20,7 +20,6 @@ module.exports = function (config) {
       "app/klondike/*.js",
       "tests/**/*.js"
     ],
-
     autoWatch: true,
 
     frameworks: ["jasmine"],
